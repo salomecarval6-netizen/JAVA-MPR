@@ -1,0 +1,236 @@
+
+.hero {
+  background: #eeecff;
+  padding: 4rem 2rem;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.hero h1 {
+  color: #2f2b5f;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  color: #555;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 0.75rem 1.75rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-primary {
+  background-color: #5146a5;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: #5146a5;
+  border: 2px solid #5146a5;
+}
+
+.btn-primary:hover {
+  background-color: #40358c;
+  transform: translateY(-3px);
+}
+
+.btn-secondary:hover {
+  background-color: #eeecff;
+  transform: translateY(-3px);
+}
+
+
+.why-sponsor {
+  padding: 4rem 2rem;
+}
+
+.why-sponsor h2 {
+  text-align: center;
+  color: #2f2b5f;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.feature {
+  width: 30%;
+  text-align: center;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding-bottom: 1.5rem;
+}
+
+.feature img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.feature h3 {
+  color: #38366b;
+}
+
+.feature p {
+  color: #555;
+  line-height: 1.5;
+  padding: 0 1rem;
+}
+
+
+.benefits {
+  margin-top: 2rem;
+  padding: 4rem 3rem;
+  background: #f7f6fc;
+  border-radius: 12px;
+}
+
+.benefits h2 {
+  text-align: center;
+  color: #2f2b5f;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.benefits ul {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0;
+  list-style: none;
+  /* remove the default bullet points (from <ul>) or numbers (from <ol>) from a list.*/
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.benefits li {
+  background: white;
+  padding: 1.5rem;
+  padding-left: 4.5rem;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  color: #555;
+  position: relative;
+  transition: transform 0.2s ease;
+}
+
+.benefits li:hover {
+  transform: translateY(-5px);
+}
+
+.benefits li::before {
+  content: "✓";
+  position: absolute;
+  left: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #e0e7ff;
+  color: #5146a5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.sponsor-hackathon {
+  padding: 3rem 1rem;
+}
+
+.sponsor-form {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 2.5rem;
+  background-color: #f5f3ff;
+  border-radius: 12px;
+}
+
+.sponsor-form h1 {
+  text-align: center;
+  color: #2f2b5f;
+  margin-bottom: 0.5rem;
+}
+
+.sponsor-form p {
+  text-align: center;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.sponsor-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sponsor-form label {
+  margin-bottom: 0.4rem;
+  color: #2f2b5f;
+  font-weight: bold;
+}
+
+.sponsor-form input,
+.sponsor-form select,
+.sponsor-form textarea {
+  padding: 0.8rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.sponsor-form textarea {
+  resize: vertical;
+}
+
+.sponsor-form button {
+  padding: 0.8rem;
+  background-color: #5146a5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sponsor-form button:hover {
+  background-color: #40358c;
+}
+
+.back-link {
+  display: block;
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #5146a5;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,164 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7ff;
+    color: #172033;
+}
+
+.container {
+    width: 100%;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 90px 20px;
+    background: linear-gradient(135deg, #111b45, #3048a0);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #dce3ff;
+}
+
+
+
+.buttons {
+    margin-top: 35px;
+}
+
+.buttons button {
+    padding: 13px 25px;
+    margin: 5px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: blue;
+    border: 2px solid rgb(15, 13, 13);
+}
+
+
+.buttons button:hover {
+    border: 2px solid rgb(29, 44, 179);
+}
+
+
+.why-sponsor {
+    padding: 70px ;
+    text-align: center;
+}
+
+.why-sponsor h2,
+.benefits h2 {
+    font-size: 34px;
+    margin-bottom: 45px;
+}
+
+
+.features {
+    display: flex;
+
+    gap: 25px;
+}
+
+.feature {
+    background: white;
+    padding: 30px 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+
+
+
+.feature img {
+    width: 180px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.feature h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.feature p {
+    color: #667085;
+    line-height: 1.6;
+}
+
+
+
+
+.benefits {
+    padding: 70px 8%;
+    background: white;
+    text-align: center;
+}
+
+.benefits ul {
+    max-width: 800px;
+    margin: auto;
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.benefits li {
+    background: #f4f7ff;
+    padding: 20px;
+    border-radius: 10px;
+
+    font-weight: 600;
+    color: #344054;
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 768px) {
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+    }
+
+    .benefits ul {
+        grid-template-columns: 1fr;
+    }
+
+}

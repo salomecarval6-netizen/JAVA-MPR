@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7ff;
+    color: #172033;
+    padding: 60px 20px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #18255e;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 5px;
+    margin-bottom: 45px;
+    color: #3d4f91;
+    letter-spacing: 5px;
+}
+
+
+table {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+th {
+    background: #18255e;
+    color: white;
+    padding: 22px;
+    font-size: 17px;
+}
+
+th:first-child {
+    text-align: left;
+}
+
+
+td {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 16px;
+}
+
+td:first-child {
+    text-align: left;
+    font-weight: 600;
+    color: #344054;
+}
+
+
+td:not(:first-child) {
+    color: #20a05a;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+th:nth-child(2){
+    background: #CD7F32;
+}
+th:nth-child(3){
+    background:#757575;
+}
+
+th:nth-child(4) {
+    background: #F9A602;
+}
+
+td:last-child {
+    background: #fff8e6;
+}
+
+tr:hover td {
+    background: #f5f7ff;
+}
+
+tr:hover td:last-child {
+    background: #fff3d0;
+}
+
+

@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #222;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #666;
+    font-size: 18px;
+}
+
+
+/* Search */
+
+.search-section {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.search-section input,
+.search-section select {
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.search-section input {
+    flex: 1;
+}
+
+
+/* Heading */
+
+h2 {
+    margin-bottom: 25px;
+}
+
+
+/* Hackathon Cards */
+
+.hackathon-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.hackathon-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.hackathon-card h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.hackathon-card p {
+    color: #666;
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.category {
+    display: inline-block;
+    background-color: #e8efff;
+    color: #2563eb;
+    padding: 6px 10px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+
+/* Register Button */
+
+.register-btn {
+    margin-top: 15px;
+    width: 100%;
+    padding: 11px;
+
+    border: none;
+    border-radius: 7px;
+
+    background-color: #2563eb;
+    color: white;
+
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.register-btn:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* Registration Form Page Styling */
+
+.form-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    padding: 20px 0;
+}
+
+.form-card {
+    background-color: white;
+    width: 100%;
+    max-width: 550px;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.form-header {
+    text-align: center;
+    padding: 0 0 25px 0;
+}
+
+.form-header h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.hackathon-target-name {
+    color: #2563eb;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.styled-registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group-block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group-block label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #444;
+}
+
+.optional-tag {
+    font-size: 13px;
+    color: #888;
+    font-weight: normal;
+}
+
+.form-group-block input {
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group-block input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.form-submit-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.form-submit-btn:hover {
+    background-color: #1d4ed8;
+}
+
+.form-footer-nav {
+    margin-top: 25px;
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.form-back-link {
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 15px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.form-back-link:hover {
+    color: #222;
+    text-decoration: underline;
+}
+
+
+
