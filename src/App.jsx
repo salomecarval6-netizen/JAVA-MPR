@@ -7,7 +7,7 @@ import Plans from "./pages/plans";
 import Sponsor from "./pages/sponsor";
 import Student from "./pages/student";
 import SponsorHackathon from "./pages/sponsor-hackathon";
-import SponsorList from "./pages/sponsorList";
+import SponsorList from "./pages/sponsorList.jsx";
 import StudentDashboard from "./components/StudentDashboard";
 import StudentRegister from "./components/StudentRegister";
 
@@ -31,7 +31,7 @@ function App() {
         <Route path="/organizer" element={<Organizer />} />
          <Route path="/student" element={<StudentDashboard />} />
 
-        <Route path="/register/:hackathonName" element={<StudentRegister />} />
+        <Route path="/student/register/:hackathonName" element={<Student view="register" />} />
         <Route path="/plans" element={<Plans />} />
         <Route path="/sponsorList" element={<SponsorList/>}/>
         <Route path="/sponsor" element={<Sponsor />} />

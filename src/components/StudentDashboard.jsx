@@ -59,7 +59,7 @@ function StudentDashboard() {
                 <p>{hackathon.description}</p>
 <button 
   className="register-btn" 
-  onClick={() => navigate(`/student/register/${encodeURIComponent(hackathonName)}`)}
+  onClick={() => navigate(`/student/register/${encodeURIComponent(hackathon.name)}`)}
 >
   Register Now
 </button>

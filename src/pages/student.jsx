@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import "../../student.css";
+import "../student.css";
 
 const hackathons = [
   {

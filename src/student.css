@@ -235,3 +235,107 @@ h2 {
 
 
 
+/* Center Layout Container */
+.registration-page {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.registration-page header {
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #f0f2f5;
+  padding-bottom: 20px;
+}
+
+.registration-page h1 {
+  color: #1a237e; /* Matches your navbar header navy color */
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.registration-page header p {
+  color: #5c6bc0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Form Grouping & Vertical Alignment */
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #333333;
+  font-size: 0.95rem;
+}
+
+/* Input Fields */
+.form-group input {
+  padding: 12px 16px;
+  border: 1.5px solid #cccccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #1a237e;
+  box-shadow: 0 0 0 3px rgba(26, 35, 126, 0.15);
+}
+
+/* Action Buttons */
+.submit-btn {
+  background-color: #1a237e;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  background-color: #283593;
+}
+
+/* Navigation Link Wrapper */
+.back-navigation {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #5c6bc0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.back-btn:hover {
+  color: #1a237e;
+  text-decoration: underline;
+}
